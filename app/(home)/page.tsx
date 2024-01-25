@@ -50,20 +50,12 @@ const Home = () => {
 						<p className='text-3xl mb-2'>Total Supply: <span className='font-bold'>10bn $JUPY</span></p>
 
 						<div className='flex flex-row gap-x-4 items-center'>
-							<div className='w-6 h-6 bg-[#5971C0]'></div>
-							<p className='text-2xl'>Airdrop (Early Cadets)</p>
+							<div className='w-6 h-6 bg-[#1e73be]'></div>
+							<p className='text-2xl'>98% Liquidity</p>
 						</div>
 						<div className='flex flex-row gap-x-4 items-center'>
-							<div className='w-6 h-6 bg-[#9EC97F]'></div>
-							<p className='text-2xl'>Liquidity</p>
-						</div>
-						<div className='flex flex-row gap-x-4 items-center'>
-							<div className='w-6 h-6 bg-[#F3C96B]'></div>
-							<p className='text-2xl'>Growth</p>
-						</div>
-						<div className='flex flex-row gap-x-4 items-center'>
-							<div className='w-6 h-6 bg-[#DE6E6A]'></div>
-							<p className='text-2xl'>Contributors</p>
+							<div className='w-6 h-6 bg-[#cfcfcf]'></div>
+							<p className='text-2xl'>2% Marketting</p>
 						</div>
 					</div>
 				</div>
@@ -81,7 +73,7 @@ const Home = () => {
 				<img src='/images/action.png' alt='Call to Action' className='h-6 w-auto mx-auto mb-6' />
 
 				<div className='text-white flex flex-col gap-y-4 mt-20 mx-auto w-2/3'>
-					<a href="https://puzzel.org/en/jigsaw/play?p=-NoqJyNhAtkPyfh-9a3J" target="_blank" rel="noopener noreferrer">
+					<a href="https://t.me/jupyportal" target="_blank" rel="noopener noreferrer">
 						<button className='flex flex-row gap-x-4 items-center'>
 							<Image
 								src='/images/puzzle.png'
@@ -90,7 +82,7 @@ const Home = () => {
 								alt='...'
 								className='w-11 h-11 flex-shrink-0 object-contain'
 							/>
-							<p className='text-2xl text-left'><span className='font-bold'>Become an early Cadet</span>: Solve the Puzzle to quality for the $JUPY drop</p> <br />
+							<p className='text-2xl text-left'><span className='font-bold'>Become an early Holder</span>: Join the Community Telegram</p> <br />
 							<button className='flex flex-row gap-x-4 items-center bg-gray-500 py-2 px-4 rounded-md'>
 								PLAY NOW
 							</button>
@@ -126,16 +118,7 @@ const Home = () => {
 				{/* Logos Section */}
 				<div className="flex justify-center mt-6">
 					{/* Add your three logos here */}
-					<a href="https://puzzel.org/en/jigsaw/play?p=-NoqJyNhAtkPyfh-9a3J" target="_blank" rel="noopener noreferrer">
-						<Image
-							src='/images/puzzle.png'  // Replace with the path to your first logo
-							width={44}
-							height={44}
-							alt='...'
-							className='w-8 h-8 flex-shrink-0 object-contain mx-2'
-						/>
-					</a>
-					<a href="https://x.com/jupythecat" target="_blank" rel="noopener noreferrer">
+					<a href="https://x.com/xxxx" target="_blank" rel="noopener noreferrer">
 						<Image
 							src='/images/x.png'  // Replace with the path to your second logo
 							width={44}
@@ -144,7 +127,7 @@ const Home = () => {
 							className='w-8 h-8 flex-shrink-0 object-contain mx-2'
 						/>
 					</a>
-					<a href="https://t.me/Jupycadets" target="_blank" rel="noopener noreferrer">
+					<a href="https://t.me/jupyportal" target="_blank" rel="noopener noreferrer">
 						<Image
 							src='/images/telegram.png'  // Replace with the path to your third logo
 							width={44}
