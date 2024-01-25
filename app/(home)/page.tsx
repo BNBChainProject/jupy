@@ -82,10 +82,7 @@ const Home = () => {
 								alt='...'
 								className='w-11 h-11 flex-shrink-0 object-contain'
 							/>
-							<p className='text-2xl text-left'><span className='font-bold'>Become an early Holder</span>: Join the Community Telegram</p> <br />
-							<button className='flex flex-row gap-x-4 items-center bg-gray-500 py-2 px-4 rounded-md'>
-								PLAY NOW
-							</button>
+							<p className='text-2xl text-left'><span className='font-bold'>Become an early Holder</span>: Join the Community Telegram</p>
 						</button>
 					</a>
 					<div className='h-0.5 ml-[60px] bg-white'></div>
@@ -118,7 +115,7 @@ const Home = () => {
 				{/* Logos Section */}
 				<div className="flex justify-center mt-6">
 					{/* Add your three logos here */}
-					<a href="https://x.com/xxxx" target="_blank" rel="noopener noreferrer">
+					<a href="https://x.com/jupysolana" target="_blank" rel="noopener noreferrer">
 						<Image
 							src='/images/x.png'  // Replace with the path to your second logo
 							width={44}
